@@ -68,7 +68,7 @@ cur = con.cursor()
 # t = pd.read_sql_query('''SELECT Date, Close FROM AAPL_10Y ''', con)
 # t.to_csv('close.csv', index=False)
 
-#Count number of positive and negative
+#Count number of positive and negative weeks
 # t = pd.read_sql_query('''SELECT COUNT(weekly_change_percent) AS positive_weeks FROM AAPL_10Y WHERE weekly_change_percent > 0 ''', con)
 # d = pd.read_sql_query('''SELECT COUNT(weekly_change_percent) AS negative_weeks FROM AAPL_10Y WHERE weekly_change_percent < 0 ''', con)
 # z = pd.concat([t, d], axis = 1)
